@@ -13,7 +13,8 @@
 9. other stuff
 10. realize react app didn't actually create and mess a lot of things up lol
 11. copy over vital info to the actual app folder
-
+12. cd portxd/
+13. npm start
 
 
 ### When Deploy
