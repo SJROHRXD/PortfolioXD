@@ -10,3 +10,12 @@
 6. npx create-react-app
 7. oh dear god the git ignore
 8. oh dear god the npm init
+
+
+
+### When Deploy
+
+Deploy static assets that are created when we run
+        
+        npm run build
+
