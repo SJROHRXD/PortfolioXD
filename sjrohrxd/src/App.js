@@ -1,25 +1,13 @@
-import logo from './clipboard.svg';
-import './App.css';
+import React from 'react';
+import Meat from './components/Meat';
+// import Nav from './components/NavBar';
 
-function App() {
+// import './App.css';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="www.google.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Meat />
     </div>
   );
 }
-
-export default App;
