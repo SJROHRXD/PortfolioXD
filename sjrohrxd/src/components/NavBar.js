@@ -5,7 +5,7 @@ import NavLink from 'react-bootstrap/NavLink'
 
 export default function NavBar() {
     return (
-        <Navbar bg="light" expand="lg" margin="">
+        <Navbar bg="light" expand="lg">
             <Container>
                 <Navbar.Brand href="#home">Home</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
