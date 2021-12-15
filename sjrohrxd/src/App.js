@@ -1,13 +1,13 @@
-import React from 'react';
-import Meat from './components/Meat';
-// import Nav from './components/NavBar';
+import Nav from "./components/NavBar";
+import Meat from "./components/Meat";
 
-// import './App.css';
-
-export default function App() {
+function App() {
   return (
-    <div>
-      <Meat />
-    </div>
+    <>
+    <>    <Nav /> </>
+    <>    <Meat /> </>
+    </>
   );
 }
+
+export default App;
