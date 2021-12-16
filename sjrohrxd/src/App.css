@@ -11,7 +11,7 @@ button.accordion-button {
 }
 
 .accordion-button:not(.collapsed) {
-  color: rgb(148, 88, 182);
+  color: rgb(125, 81, 151);
   background-color: rgb(199, 177, 212);
 }
 
@@ -29,7 +29,7 @@ img {
 }
 
 div.accordion-collapse.collapse.show {
-  background-color: rgb(223, 211, 230);
+  background-color: rgba(223, 211, 230, 0.575);
 }
 
 #Footy {
@@ -46,4 +46,13 @@ div.accordion-collapse.collapse.show {
   position: fixed;
   bottom: 0;
   padding-top: 5px;
+}
+
+
+body {
+  background-image: url(/public/images/bgattempt.jpg);
+}
+
+.bg-light {
+  background-color:rgba(206, 168, 228, 0.438) !important;
 }

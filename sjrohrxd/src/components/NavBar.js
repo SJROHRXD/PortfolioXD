@@ -5,78 +5,20 @@ import NavLink from 'react-bootstrap/NavLink'
 
 export default function NavBar() {
     return (
-        <Navbar bg="light" expand="lg">
-            <Container>
-                <Navbar.Brand href="#home">Home</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Navbar className="me-auto">
-                        {/* <NavLink><a href="/">Home</a></NavLink> */}
-                        <NavLink><a href="https://github.com/SJROHRXD">GitHub</a></NavLink>
-                        <NavLink><a href="https://www.linkedin.com/in/sjrohrxd/">LinkedIn</a></NavLink>
-                        </Navbar>
-                    </Navbar.Collapse>
-            </Container>
-        </Navbar>
+        <div class = "NavProblems">
+            <Navbar bg="light" expand="lg">
+                <Container>
+                    <Navbar.Brand href="">Sarah Jeanne Rohr</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav">
+                            <Navbar className="me-auto">
+                            <NavLink><a href="https://sjrohrxd.github.io/SNEWZ/">SNewZ</a></NavLink>
+                            <NavLink><a href="https://gist.github.com/ebfb3f319a9dd019adbb426712b0ff8b">RegEx</a></NavLink>
+                            <NavLink><a href="https://zapplicant.herokuapp.com/applicant">Zapplicant</a></NavLink>
+                            </Navbar>
+                        </Navbar.Collapse>
+                </Container>
+            </Navbar>
+        </div>
     );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function Nav() {
-//     return (
-//         <div>
-//             <nav className='navbario'>
-//                 <ul className='navbar-link'>
-//                     <li><a href="/">Home</a></li>
-//                     <li><a href="/">GitHub</a></li>
-//                     <li><a href="/">LinkedIn</a></li>
-//                 </ul>
-//             </nav>
-//         </div>
-//     )
-// };
-
-// export default Nav;
-
-
-
-
-
-
-        // export default function NavBar() {
-        //     return (
-        //         <div>
-        //             <nav className='navbar'>
-        //                 <ul className='navbar-link'>
-        //                     <li><a href="/">Home</a></li>
-        //                     <li><a href="https://github.com/SJROHRXD">GitHub</a></li>
-        //                     <li><a href="https://www.linkedin.com/in/sjrohrxd/">LinkedIn</a></li>
-        //                 </ul>
-        //             </nav>
-        //         </div>
-        //     );
-        // };
