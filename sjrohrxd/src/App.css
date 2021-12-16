@@ -1,6 +1,6 @@
 #container, ::after, ::before {
   box-sizing: border-box;
-  margin: 10px;
+  margin: 5px;
 }
 
 button.accordion-button {
@@ -16,7 +16,7 @@ button.accordion-button {
 }
 
 div.container {
-  padding: 20px;
+  padding: 10px;
 }
 
 img {
@@ -32,3 +32,18 @@ div.accordion-collapse.collapse.show {
   background-color: rgb(223, 211, 230);
 }
 
+#Footy {
+  box-sizing: unset;
+  margin: unset;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-style: none;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgb(223, 211, 230);  width: 100%;
+  height: 4vh;
+  position: fixed;
+  bottom: 0;
+  padding-top: 5px;
+}

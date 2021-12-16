@@ -35,6 +35,9 @@ export default function Meat() {
                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                             est laborum.
+                            <div className='imageClass'>
+                                    <img src="/images/imagetest.png" alt="website design"/>
+                                </div>
                             </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
@@ -47,6 +50,9 @@ export default function Meat() {
                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                             est laborum.
+                            <div className='imageClass'>
+                                    <img src="/images/imagetest.png" alt="website design"/>
+                                </div>
                             </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
